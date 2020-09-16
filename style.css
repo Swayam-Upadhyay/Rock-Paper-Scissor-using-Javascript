@@ -1,4 +1,4 @@
-h1{
+h1,h2{
     color: royalblue;
 }
 
@@ -15,14 +15,18 @@ a:hover, a:active {
     background-color: red;
 }
 
+body{
+    background-image: url("https://amita.in/image/cache/data/Curtains/cu/Impulsion/120179-312x312.jpg");
+}
+
 div{
     background-image: url("https://thumbs.dreamstime.com/z/white-paper-wrinkled-texture-background-white-paper-wrinkled-texture-background-white-crumpled-paper-texture-background-137375365.jpg");
 }
 
 .container{
     border: 1px solid black;
-    width: 75%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 100px auto;
     text-align: center;
 }
 
