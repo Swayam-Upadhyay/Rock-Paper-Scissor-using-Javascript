@@ -1,22 +1,10 @@
 function Game(yourChoice){
-    console.log(yourChoice);
-
     var humanChoice, BotChoice;
-
     humanChoice = yourChoice.id;
-    console.log(humanChoice);
-
     BotChoice = ComputerChoice(RandomInt());
-    console.log(BotChoice);
-
     result = DecideWinner(humanChoice,BotChoice);
-    console.log(result);
-
     message = finalMessage(result);
-    console.log(message);
-
     HtmlChanges(humanChoice ,BotChoice, message);
-
 }
 
 function RandomInt(){
