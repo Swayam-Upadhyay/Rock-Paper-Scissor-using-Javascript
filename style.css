@@ -1,0 +1,39 @@
+h1{
+    color: royalblue;
+}
+
+a:link, a:visited {
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+  
+a:hover, a:active {
+    background-color: red;
+}
+
+div{
+    background-image: url("https://thumbs.dreamstime.com/z/white-paper-wrinkled-texture-background-white-paper-wrinkled-texture-background-white-crumpled-paper-texture-background-137375365.jpg");
+}
+
+.container{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-container img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 223, 1);
+}
